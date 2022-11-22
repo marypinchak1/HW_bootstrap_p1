@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: auto;
+  background-color: rgb(29, 104, 175);
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  list-style: none;
+  margin-left: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(206, 203, 203);
+}
+.menu .active {
+  color: white;
+}
+.menu a:hover {
+  color: white;
+}
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-weight: 300;
+  padding: 20px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+.news {
+  border: 1px solid rgb(194, 194, 194);
+  margin-bottom: 20px;
+}
+.news a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+.news td :hover {
+  color: rgb(43, 42, 42);
+  transition: 0.5s;
+}
+.news td {
+  padding: 10px 20px;
+}
+.second-news {
+  border-top: 1px solid rgb(194, 194, 194);
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+h3 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+}
+.btn {
+  width: 100%;
+  background-color: rgb(216, 213, 213);
+  border: none;
+  padding: 10px 0;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: rgb(59, 59, 59);
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+.rewards {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.rewards__first-col p {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  padding: 5px 10px;
+  margin: 0;
+  white-space: nowrap;
+}
+.rewards__row {
+  display: flex;
+  align-items: center;
+}
+.rewards__first-col {
+  display: flex;
+  justify-content: end;
+}
+.rewards__last-col {
+  display: flex;
+}
+.rewards__last-col p {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 5px 10px;
+  margin: 0;
+  white-space: nowrap;
+}
+.rewards__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .logo img {
+    height: 30px;
+    width: 30px;
+  }
+  .logo-2 {
+    height: 40px;
+    width: 40px;
+  }
+  .menu li {
+    margin-left: 4px;
+  }
+  .menu a {
+    font-size: 12px;
+  }
+}
